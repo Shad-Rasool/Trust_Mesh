@@ -1,0 +1,39 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-11-11T20:53:51.139083+00:00",
+    "did": "did:mesh:genesis",
+    "doc_hash": "31e955c9de5e683e036d16c383f782c445f7b042e2178ad32d0589d2266bf5e0",
+    "operation": "GENESIS",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "284d58e677d964d6ac2be3bd47fa5d04ea7bcd77f9a83b1e95d7e3e917faab22",
+    "metadata": {
+      "network": "idp-mesh-simulated-v1",
+      "description": "Genesis anchor for Decentralized Zero-Trust IdP Mesh"
+    }
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-11-11T20:53:51.153540+00:00",
+    "did": "did:mesh:key:z6MkuTamperTarget",
+    "doc_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "operation": "CREATE",
+    "previous_hash": "284d58e677d964d6ac2be3bd47fa5d04ea7bcd77f9a83b1e95d7e3e917faab22",
+    "record_hash": "a9562e2abb7b6dfd3a54be1e15e9a4d5aa3181a8e9a624e8d70b1e82e01be774",
+    "metadata": {}
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-11-11T20:59:50.203466+00:00",
+    "did": "did:mesh:388d926c1e4ada36058180dd8bcf6dfa",
+    "doc_hash": "4da8e2db68e229d383d05fff8c11dc3ee0aab95a83d6440c3905bf0e979c0c43",
+    "operation": "CREATE",
+    "previous_hash": "a9562e2abb7b6dfd3a54be1e15e9a4d5aa3181a8e9a624e8d70b1e82e01be774",
+    "record_hash": "7bbb04d59a447b7936eaf17452420202558cc2c7bef0db68ec87eada3e344dbe",
+    "metadata": {
+      "source": "webauthn-registration",
+      "schema": "did-v1",
+      "keyFormat": "JWK"
+    }
+  }
+]
